@@ -17,5 +17,6 @@
         * ar x (extract)
         * ar crv libname.a 1.o 2.o..... n.o => (*.o)
     * Dynamic Library
+        * gcc -o libname.so -shared -fPIC
 
     
