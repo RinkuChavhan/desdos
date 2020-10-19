@@ -6,7 +6,7 @@
 
 int main()
 {
-    printf("Hello \n");  
+    printf("Hello %d\n",3); //buffer 
     printf("World \n");
     return 0;
 }
