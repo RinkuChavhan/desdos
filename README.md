@@ -41,6 +41,8 @@
 
 * fork - create a new process
     * parent and child relationship
+    * parent and child have their own address space (text,data,bss,stack and heap)
+
 
 * Psuedo parallelism
 * True parallelism
@@ -48,3 +50,23 @@
 * ltrace
 * strace
 * Program using system call -> write a string inside a file.
+
+* Library
+    * User Space
+    * May bebuffered I/O
+    * Formatted I/O
+* System
+    * Kernal Space
+    * Not buffered I/O
+    * No formatted I/O
+
+
+* Open - O_CREAT
+* int -file descriptor
+    * fd - represents an open file in the kernel
+    * 0-standard input
+    * 1-standard output
+    * 2-standard error
+
+
+* Process states:
