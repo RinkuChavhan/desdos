@@ -70,3 +70,17 @@
 
 
 * Process states:
+    * Create
+    * Ready (multiple processes)
+    * Running (one process -> uniprocessor)
+    * Waiting (multiple processes)
+    * Destroy
+
+* Scheduling algorithm -> choose the next process that has to execute
+* Context switch -> Context having (current process) + Scheduling (choose thenew process)+ Context Restoring (New Process)
+* Context -> PC,SP,GPR,Flags -> Hardware Registers -> Uniprocessor (1 copy)
+
+* Blocking -> Process may go into waiting state
+* Non Blocking call -> never block -> immediately return back after doing functionality
+
+* Inter Process Communication
